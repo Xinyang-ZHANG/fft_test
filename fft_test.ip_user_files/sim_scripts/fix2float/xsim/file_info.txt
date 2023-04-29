@@ -1,0 +1,1 @@
+fix2float.vhd,vhdl,xil_defaultlib,../../../../fft_test2.srcs/sources_1/ip/fix2float/sim/fix2float.vhd,

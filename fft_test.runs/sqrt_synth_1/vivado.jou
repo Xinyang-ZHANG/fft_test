@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Apr 21 20:48:15 2021
+# Process ID: 25124
+# Current directory: C:/Users/dell/Desktop/CameraLink/fft_test2/fft_test2.runs/sqrt_synth_1
+# Command line: vivado.exe -log sqrt.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sqrt.tcl
+# Log file: C:/Users/dell/Desktop/CameraLink/fft_test2/fft_test2.runs/sqrt_synth_1/sqrt.vds
+# Journal file: C:/Users/dell/Desktop/CameraLink/fft_test2/fft_test2.runs/sqrt_synth_1\vivado.jou
+#-----------------------------------------------------------
+source sqrt.tcl -notrace

@@ -1,0 +1,22 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/verilog_learn/personal_project/fft_test/fft_test.sim/sim_1/behav/xsim/glbl.v,1648558634,verilog,,,,glbl,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sim_1/new/fft_float_tb.v,1682083133,verilog,,,,fft_float_tb,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sim_1/new/fft_testbench.v,1648558532,verilog,,,,fft_testbench,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/add/sim/add.vhd,1648558980,vhdl,,,,add,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/add32bits/sim/add32bits.vhd,1648558976,vhdl,,,,add32bits,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/dds_compiler_0/sim/dds_compiler_0.vhd,1648558970,vhdl,,,,dds_compiler_0,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/dds_compiler_1/sim/dds_compiler_1.vhd,1648558964,vhdl,,,,dds_compiler_1,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/fix2float/sim/fix2float.vhd,1648558958,vhdl,,,,fix2float,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/float2fix/sim/float2fix.vhd,1648558952,vhdl,,,,float2fix,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/ifft_0/sim/ifft_0.vhd,1648558942,vhdl,,,,ifft_0,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/ifft_f/sim/ifft_f.vhd,1682035562,vhdl,,,,ifft_f,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/mult/sim/mult.vhd,1648558926,vhdl,,,,mult,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/mult_gen/sim/mult_gen.vhd,1648558924,vhdl,,,,mult_gen,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/sqrt/sim/sqrt.vhd,1648558918,vhdl,,,,sqrt,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/xfft_0/sim/xfft_0.vhd,1648558912,vhdl,,,,xfft_0,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/xfft_1/sim/xfft_1.vhd,1682082192,vhdl,,,,xfft_1,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/xfft_f/sim/xfft_f.vhd,1682035425,vhdl,,,,xfft_f,,,,,,,,
+D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/new/fft.v,1682035604,verilog,,D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sim_1/new/fft_testbench.v,,fft,,,,,,,,

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Apr 21 22:05:08 2023
+# Process ID: 23832
+# Current directory: D:/verilog_learn/personal_project/fft_test/fft_test.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/verilog_learn/personal_project/fft_test/fft_test.sim/sim_1/behav/xsim/xsim.dir/fft_testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/verilog_learn/personal_project/fft_test/fft_test.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/verilog_learn/personal_project/fft_test/fft_test.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/verilog_learn/personal_project/fft_test/fft_test.sim/sim_1/behav/xsim/xsim.dir/fft_testbench_behav/webtalk/xsim_webtalk.tcl -notrace

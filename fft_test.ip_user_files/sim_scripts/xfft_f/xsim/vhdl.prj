@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../fft_test3.srcs/sources_1/ip/xfft_f/sim/xfft_f.vhd" \
+
+nosort

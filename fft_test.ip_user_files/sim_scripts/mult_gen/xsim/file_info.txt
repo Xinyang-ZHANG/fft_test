@@ -1,0 +1,1 @@
+mult_gen.vhd,vhdl,xil_defaultlib,../../../../fft_test2.srcs/sources_1/ip/mult_gen/sim/mult_gen.vhd,

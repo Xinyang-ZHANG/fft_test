@@ -1,0 +1,1 @@
+dds_compiler_1.vhd,vhdl,xil_defaultlib,../../../../fft_test2.srcs/sources_1/ip/dds_compiler_1/sim/dds_compiler_1.vhd,

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="mult_gen_synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1619079570">
+  <File Type="PA-TCL" Name="mult_gen.tcl"/>
+  <File Type="REPORTS-TCL" Name="mult_gen_reports.tcl"/>
+  <File Type="RDS-RDS" Name="mult_gen.vds"/>
+  <File Type="RDS-UTIL" Name="mult_gen_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="mult_gen_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="mult_gen.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/mult_gen">
+    <File Path="$PSRCDIR/sources_1/ip/mult_gen/mult_gen.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../BaiduNetdiskDownload/fft_test3/fft_test2/fft_test2.srcs/sources_1/ip/mult_gen/mult_gen.xci"/>
+        <Attr Name="ImportTime" Val="1619079568"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="mult_gen"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/mult_gen">
+    <File Path="$PSRCDIR/sources_1/ip/mult_gen/mult_gen.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../BaiduNetdiskDownload/fft_test3/fft_test2/fft_test2.srcs/sources_1/ip/mult_gen/mult_gen.xci"/>
+        <Attr Name="ImportTime" Val="1619079568"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="mult_gen"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

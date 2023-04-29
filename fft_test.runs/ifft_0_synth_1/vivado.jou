@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Apr 23 08:39:17 2021
+# Process ID: 17724
+# Current directory: C:/Users/dell/Desktop/CameraLink/fft_test2/fft_test2.runs/ifft_0_synth_1
+# Command line: vivado.exe -log ifft_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ifft_0.tcl
+# Log file: C:/Users/dell/Desktop/CameraLink/fft_test2/fft_test2.runs/ifft_0_synth_1/ifft_0.vds
+# Journal file: C:/Users/dell/Desktop/CameraLink/fft_test2/fft_test2.runs/ifft_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ifft_0.tcl -notrace

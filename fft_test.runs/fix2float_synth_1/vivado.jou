@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr 22 11:16:07 2021
+# Process ID: 23744
+# Current directory: C:/Users/dell/Desktop/CameraLink/fft_test2/fft_test2.runs/fix2float_synth_1
+# Command line: vivado.exe -log fix2float.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fix2float.tcl
+# Log file: C:/Users/dell/Desktop/CameraLink/fft_test2/fft_test2.runs/fix2float_synth_1/fix2float.vds
+# Journal file: C:/Users/dell/Desktop/CameraLink/fft_test2/fft_test2.runs/fix2float_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fix2float.tcl -notrace

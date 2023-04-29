@@ -1,0 +1,11 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 46b40167271d49a78bbd8685c42571ad --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_10 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_13 -L xil_defaultlib -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_15 -L axi_utils_v2_0_6 -L xbip_dsp48_multadd_v3_0_6 -L floating_point_v7_1_8 -L c_mux_bit_v12_0_6 -L c_shift_ram_v12_0_13 -L cmpy_v6_0_17 -L floating_point_v7_0_16 -L xfft_v9_1_2 -L dds_compiler_v6_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fft_testbench_behav xil_defaultlib.fft_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3715] size mismatch in mixed language port association, vhdl port 'm_axis_data_tuser' [D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/new/fft.v:98]
+WARNING: [VRFC 10-3715] size mismatch in mixed language port association, vhdl port 's_axis_config_tvalid' [D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/new/fft.v:127]
+WARNING: [VRFC 10-3715] size mismatch in mixed language port association, vhdl port 'm_axis_data_tuser' [D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/new/fft.v:216]
+WARNING: [VRFC 10-3715] size mismatch in mixed language port association, vhdl port 's_axis_config_tvalid' [D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/new/fft.v:246]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

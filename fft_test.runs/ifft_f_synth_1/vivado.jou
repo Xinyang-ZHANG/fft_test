@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Apr 21 08:06:12 2023
+# Process ID: 2184
+# Current directory: D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_test3.runs/ifft_f_synth_1
+# Command line: vivado.exe -log ifft_f.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ifft_f.tcl
+# Log file: D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_test3.runs/ifft_f_synth_1/ifft_f.vds
+# Journal file: D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_test3.runs/ifft_f_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ifft_f.tcl -notrace

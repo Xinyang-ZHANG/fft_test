@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr 22 16:19:31 2021
+# Process ID: 23260
+# Current directory: C:/Users/dell/Desktop/CameraLink/fft_test2/fft_test2.runs/mult_gen_synth_1
+# Command line: vivado.exe -log mult_gen.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_gen.tcl
+# Log file: C:/Users/dell/Desktop/CameraLink/fft_test2/fft_test2.runs/mult_gen_synth_1/mult_gen.vds
+# Journal file: C:/Users/dell/Desktop/CameraLink/fft_test2/fft_test2.runs/mult_gen_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult_gen.tcl -notrace
