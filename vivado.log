@@ -2,16 +2,18 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sat Apr 22 11:10:01 2023
-# Process ID: 32732
+# Start of session at: Mon Jun 26 23:21:12 2023
+# Process ID: 40380
 # Current directory: D:/verilog_learn/personal_project/fft_test
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32236 D:\verilog_learn\personal_project\fft_test\fft_test.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent38260 D:\verilog_learn\personal_project\fft_test\fft_test.xpr
 # Log file: D:/verilog_learn/personal_project/fft_test/vivado.log
 # Journal file: D:/verilog_learn/personal_project/fft_test\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project D:/verilog_learn/personal_project/fft_test/fft_test.xpr
 CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/BaiduNetdiskDownload/fft_test3/fft_test2/fft_testbench_behav.wcfg'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_testbench_behav.wcfg'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_float_tb_behav.wcfg'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
@@ -22,82 +24,7 @@ WARNING: [IP_Flow 19-3664] IP 'xfft_1' generated file not found 'd:/verilog_lear
 WARNING: [IP_Flow 19-3664] IP 'xfft_1' generated file not found 'd:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/xfft_1/xfft_1_stub.vhdl'. Please regenerate to continue.
 WARNING: [IP_Flow 19-3664] IP 'xfft_1' generated file not found 'd:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/xfft_1/xfft_1_sim_netlist.v'. Please regenerate to continue.
 WARNING: [IP_Flow 19-3664] IP 'xfft_1' generated file not found 'd:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/ip/xfft_1/xfft_1_sim_netlist.vhdl'. Please regenerate to continue.
-open_project: Time (s): cpu = 00:00:40 ; elapsed = 00:00:17 . Memory (MB): peak = 737.637 ; gain = 89.781
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:09 . Memory (MB): peak = 775.875 ; gain = 152.957
 update_compile_order -fileset sources_1
-set_property top fft_testbench [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-update_compile_order -fileset sim_1
-launch_simulation
-INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/verilog_learn/personal_project/fft_test/fft_test.sim/sim_1/behav/xsim'
-INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [USF-XSim-7] Finding pre-compiled libraries...
-INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/verilog_learn/personal_project/fft_test/fft_test.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-54] Inspecting design source files for 'fft_testbench' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/verilog_learn/personal_project/fft_test/fft_test.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj fft_testbench_vlog.prj"
-"xvhdl --incr --relax -prj fft_testbench_vhdl.prj"
-run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 949.742 ; gain = 0.000
-INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/verilog_learn/personal_project/fft_test/fft_test.sim/sim_1/behav/xsim'
-"xelab -wto 46b40167271d49a78bbd8685c42571ad --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_10 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_13 -L xil_defaultlib -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_15 -L axi_utils_v2_0_6 -L xbip_dsp48_multadd_v3_0_6 -L floating_point_v7_1_8 -L c_mux_bit_v12_0_6 -L c_shift_ram_v12_0_13 -L cmpy_v6_0_17 -L floating_point_v7_0_16 -L xfft_v9_1_2 -L dds_compiler_v6_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fft_testbench_behav xil_defaultlib.fft_testbench xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator 2019.1
-Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
-Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 46b40167271d49a78bbd8685c42571ad --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_10 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_13 -L xil_defaultlib -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_15 -L axi_utils_v2_0_6 -L xbip_dsp48_multadd_v3_0_6 -L floating_point_v7_1_8 -L c_mux_bit_v12_0_6 -L c_shift_ram_v12_0_13 -L cmpy_v6_0_17 -L floating_point_v7_0_16 -L xfft_v9_1_2 -L dds_compiler_v6_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fft_testbench_behav xil_defaultlib.fft_testbench xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-WARNING: [VRFC 10-3715] size mismatch in mixed language port association, vhdl port 'm_axis_data_tuser' [D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/new/fft.v:98]
-WARNING: [VRFC 10-3715] size mismatch in mixed language port association, vhdl port 's_axis_config_tvalid' [D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/new/fft.v:127]
-WARNING: [VRFC 10-3715] size mismatch in mixed language port association, vhdl port 'm_axis_data_tuser' [D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/new/fft.v:216]
-WARNING: [VRFC 10-3715] size mismatch in mixed language port association, vhdl port 's_axis_config_tvalid' [D:/verilog_learn/personal_project/fft_test/fft_test.srcs/sources_1/new/fft.v:246]
-Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
-run_program: Time (s): cpu = 00:00:32 ; elapsed = 00:19:49 . Memory (MB): peak = 949.742 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '1190' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-WARNING: [USF-XSim-17] WCFG file does not exist:D:/BaiduNetdiskDownload/fft_test3/fft_test2/fft_testbench_behav.wcfg
-WARNING: [USF-XSim-17] WCFG file does not exist:D:/BaiduNetdiskDownload/fft_test3/fft_test2/fft_testbench_behav.wcfg
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/verilog_learn/personal_project/fft_test/fft_test.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "fft_testbench_behav -key {Behavioral:sim_1:Functional:fft_testbench} -tclbatch {fft_testbench.tcl} -view {D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_testbench_behav.wcfg} -view {D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_float_tb_behav.wcfg} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2019.1
-Time resolution is 1 ps
-open_wave_config D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_testbench_behav.wcfg
-open_wave_config D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_float_tb_behav.wcfg
-WARNING: Simulation object /fft_float_tb/clk was not found in the design.
-WARNING: Simulation object /fft_float_tb/rst_n was not found in the design.
-WARNING: Simulation object /fft_float_tb/dds5_m_data_tdata was not found in the design.
-WARNING: Simulation object /fft_float_tb/dds10_m_data_tdata was not found in the design.
-WARNING: Simulation object /fft_float_tb/dds10_m_data_tvalid was not found in the design.
-WARNING: Simulation object /fft_float_tb/dds5_m_data_tvalid was not found in the design.
-WARNING: Simulation object /fft_float_tb/P was not found in the design.
-WARNING: Simulation object /fft_float_tb/fft_fix_data was not found in the design.
-WARNING: Simulation object /fft_float_tb/fft_fix_val was not found in the design.
-source fft_testbench.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-xsim: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 1181.289 ; gain = 231.547
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'fft_testbench_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:01:08 ; elapsed = 00:20:20 . Memory (MB): peak = 1181.289 ; gain = 243.609
-run 70 ms
-run: Time (s): cpu = 00:00:42 ; elapsed = 00:02:27 . Memory (MB): peak = 1181.289 ; gain = 0.000
-save_wave_config {D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_testbench_behav.wcfg}
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
 exit
-INFO: [Common 17-206] Exiting Vivado at Sat Apr 22 15:56:08 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 26 23:21:50 2023...

@@ -2,27 +2,13 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sat Apr 22 11:10:01 2023
-# Process ID: 32732
+# Start of session at: Mon Jun 26 23:21:12 2023
+# Process ID: 40380
 # Current directory: D:/verilog_learn/personal_project/fft_test
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32236 D:\verilog_learn\personal_project\fft_test\fft_test.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent38260 D:\verilog_learn\personal_project\fft_test\fft_test.xpr
 # Log file: D:/verilog_learn/personal_project/fft_test/vivado.log
 # Journal file: D:/verilog_learn/personal_project/fft_test\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project D:/verilog_learn/personal_project/fft_test/fft_test.xpr
 update_compile_order -fileset sources_1
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top fft_testbench [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode All [current_project]
-update_compile_order -fileset sim_1
-launch_simulation
-open_wave_config D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_testbench_behav.wcfg
-open_wave_config D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_float_tb_behav.wcfg
-source fft_testbench.tcl
-run 70 ms
-save_wave_config {D:/BaiduNetdiskDownload/fft_test3/fft_test3/fft_testbench_behav.wcfg}
-close_sim
